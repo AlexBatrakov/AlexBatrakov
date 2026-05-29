@@ -58,20 +58,17 @@ Julia framework for reproducible computational experiments,
 statistical diagnostics and uncertainty-aware analytical workflows.
 
 #### Evalynx
+Backend control plane for reproducible computational runs with FastAPI, PostgreSQL, Redis + RQ, and a real external runner integration.
 
 ### Tech stack
 
-#### Languages:
-Python, SQL, Julia, C/C++
+**Languages:** Python · SQL · Julia · C/C++
 
-#### ML & Data:
-pandas, NumPy, SciPy, scikit-learn, PyTorch
+**ML & Data:** pandas · NumPy · SciPy · scikit-learn · PyTorch
 
-#### Engineering:
-Docker, GitHub Actions, FastAPI, Linux
+**Engineering:** Docker · GitHub Actions · FastAPI · Linux
 
-#### Analytics:
-DuckDB, PostgreSQL, Statistical Testing
+**Analytics:** DuckDB · PostgreSQL · Statistical Testing
 
 #### Selected Highlights
 - First-author peer-reviewed publication (A&A, 2024)
