@@ -1,77 +1,146 @@
-## Hi there 👋
+<h1 align="center">Hi, I'm Alexander Batrakov 👋</h1>
 
-<!--
-**AlexBatrakov/AlexBatrakov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <b>Data Science · Data Analytics · Machine Learning · Software Engineering</b><br>
+  PhD-trained physicist building reproducible analytical workflows, ML evaluation pipelines, backend-supported experiment platforms, and scientific software.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://github.com/AlexBatrakov">
+    <img src="https://img.shields.io/badge/GitHub-AlexBatrakov-181717?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/alexbatrakov97">
+    <img src="https://img.shields.io/badge/LinkedIn-alexbatrakov97-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <img src="https://img.shields.io/badge/Location-Wuppertal%2C%20Germany-2E8B57?style=for-the-badge" alt="Location">
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
 
-### Alexander Batrakov
+## What I build
 
-Data Scientist / Analytical Software Engineer
-PhD candidate in Physics with 5+ years of experience building reproducible analytical workflows, statistical modeling pipelines, and data-intensive software systems.
+I focus on turning messy, ambiguous, or computation-heavy problems into **structured, testable, and reproducible systems**.
 
-### Interested in:
-- Data Science
-- Machine Learning
-- Analytics Engineering
-- AI Tooling
-- Scientific and Analytical Software
+- **Data Analytics & Data Science:** data quality, SQL marts, feature engineering, time-aware validation, statistical diagnostics.
+- **Machine Learning:** controlled experiments, baselines, multi-seed evaluation, calibration, error analysis, model serving.
+- **Backend & Experiment Platforms:** FastAPI services, database-backed run state, async workers, Docker/CI reviewer paths.
+- **Scientific & Numerical Software:** Julia packages, external model-fitting workflows, residual diagnostics, parameter search, ODE-based simulation.
 
-### Core Areas
-- Data Science & Machine Learning
-- Statistical Modeling & Time Series
-- Experimentation & Evaluation Frameworks
-- Analytics Engineering
-- Reproducible Workflows
-- Python, SQL, Julia
-- Docker, CI/CD, Cloud Deployment
+---
 
-### Featured Projects
+## Core stack
 
-#### Wearable Analytics
-Privacy-first analytics workflow on real Garmin wearable data.
-Python, SQL, DuckDB, scikit-learn, statistical validation,
-time-aware modeling and dashboard-oriented analytics.
+<p>
+  <img src="https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Julia-9558B2?style=flat-square&logo=julia&logoColor=white" alt="Julia">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
 
-#### PyTorch Pets Classifier
-End-to-end computer vision project with reproducible experiments,
-robust model selection, calibration analysis, FastAPI serving,
-Docker and Azure deployment.
+---
 
-#### Solo Wargame AI
-Simulation and experimentation platform for a stochastic tactical
-decision environment with exact references, benchmark evaluation,
-heuristic agents and deterministic replay.
+## Selected projects
 
-#### GravityToolsNext
-Julia framework for reproducible computational experiments,
-statistical diagnostics and uncertainty-aware analytical workflows.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-#### Evalynx
-Backend control plane for reproducible computational runs with FastAPI, PostgreSQL, Redis + RQ, and a real external runner integration.
+### [Wearable Analytics](https://github.com/AlexBatrakov/wearable-analytics)
 
-### Tech stack
+Privacy-first analytics workflow on real Garmin data: sanitized pipelines, quality labels, SQL marts, feature engineering, leakage-aware modeling, and tests.
 
-**Languages:** Python · SQL · Julia · C/C++
+**Signals:** Data Analytics · Time Series · SQL · ML Evaluation  
+**Stack:** Python · pandas · scikit-learn · DuckDB · PostgreSQL · pytest
 
-**ML & Data:** pandas · NumPy · SciPy · scikit-learn · PyTorch
+</td>
+<td width="50%" valign="top">
 
-**Engineering:** Docker · GitHub Actions · FastAPI · Linux
+### [PyTorch Pets Classifier](https://github.com/AlexBatrakov/pytorch-pets-classifier)
 
-**Analytics:** DuckDB · PostgreSQL · Statistical Testing
+Reproducible computer-vision workflow with MLflow tracking, multi-seed model selection, diagnostics, calibration, FastAPI serving, Docker, and Azure deployment path.
 
-#### Selected Highlights
-- First-author peer-reviewed publication (A&A, 2024)
-- Built analytics workflows on 23-year irregular time series
-- Developed reproducible experiment frameworks used in PhD research
-- Deployed ML services using FastAPI, Docker and Azure
+**Signals:** Machine Learning · Model Reliability · Deployment  
+**Stack:** Python · PyTorch · MLflow · FastAPI · Docker · Azure
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Evalynx](https://github.com/AlexBatrakov/evalynx)
+
+FastAPI/PostgreSQL/Redis control plane for reproducible computational runs: API submission, async workers, retries, metrics, artifacts, and CI smoke tests.
+
+**Signals:** Backend · Run Orchestration · Experiment Platform  
+**Stack:** Python · FastAPI · PostgreSQL · Redis/RQ · SQLAlchemy · Docker Compose
+
+</td>
+<td width="50%" valign="top">
+
+### [Solo Wargame AI](https://github.com/AlexBatrakov/solo-wargame-ai)
+
+Deterministic hidden-information simulator with legal-action masks, replay traces, fixed-seed benchmarks, heuristic/search/learned agents, and evaluation tooling.
+
+**Signals:** Simulation · AI Agents · ML Evaluation  
+**Stack:** Python · PyTorch · Gym-style wrappers · TOML · JSON/JSONL · SQLite · pytest
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [GravityToolsNext.jl](https://github.com/AlexBatrakov/GravityToolsNext.jl)
+
+Julia framework for external model-fitting workflows with structured metrics, residual diagnostics, white-noise fitting, priors, and adaptive parameter search.
+
+**Signals:** Statistical Diagnostics · Experiment Orchestration · Scientific Computing  
+**Stack:** Julia · TEMPO/TEMPO2 · HypothesisTests · KernelDensity · Optim · JLD2 · Docker
+
+</td>
+<td width="50%" valign="top">
+
+### [StructureSolver.jl](https://github.com/AlexBatrakov/StructureSolver.jl)
+
+Julia scientific-computing package for ODE-based simulation workflows with equation-of-state abstractions, shooting methods, parameter scans, and sensitivity analysis.
+
+**Signals:** Numerical Methods · Sensitivity Analysis · Julia  
+**Stack:** Julia · DifferentialEquations.jl · ForwardDiff.jl · NLsolve.jl · Documenter.jl · GitHub Actions
+
+</td>
+</tr>
+</table>
+
+---
+
+## How I work
+
+Across projects, I emphasize:
+
+- explicit data contracts and clear interfaces;
+- reproducible runs and inspectable intermediate artifacts;
+- baselines, diagnostics, and conservative validation;
+- automated tests, documentation, CI, and reviewer-friendly execution paths;
+- translating complex domain problems into maintainable software.
+
+---
+
+## Current direction
+
+I am looking for roles where I can combine my quantitative research background with practical software and data work, especially in:
+
+<p>
+  <img src="https://img.shields.io/badge/Data%20Science-0B7285?style=flat-square" alt="Data Science">
+  <img src="https://img.shields.io/badge/Data%20Analytics-2F9E44?style=flat-square" alt="Data Analytics">
+  <img src="https://img.shields.io/badge/Machine%20Learning-5F3DC4?style=flat-square" alt="Machine Learning">
+  <img src="https://img.shields.io/badge/ML%20Engineering-9C36B5?style=flat-square" alt="ML Engineering">
+  <img src="https://img.shields.io/badge/Software%20Engineering-364FC7?style=flat-square" alt="Software Engineering">
+</p>
