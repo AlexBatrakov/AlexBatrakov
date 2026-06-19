@@ -1,6 +1,11 @@
 <h1 align="center">Hi, I'm Alexander Batrakov 👋</h1>
 
 <p align="center">
+  <b>Data Science · Data Analytics · Machine Learning · Software Engineering</b><br>
+  PhD-trained physicist transitioning into practical data, ML, and software roles — with a focus on reproducible analytics, model evaluation, backend-supported experiment workflows, and scientific software.
+</p>
+
+<p align="center">
   <a href="https://github.com/AlexBatrakov">
     <img src="https://img.shields.io/badge/GitHub-AlexBatrakov-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
@@ -14,7 +19,7 @@
   <a href="Portfolio_Alexander_Batrakov_EN.pdf">
     <img src="https://img.shields.io/badge/Portfolio-English%20PDF-2E8B57?style=for-the-badge&logo=readthedocs&logoColor=white" alt="English portfolio PDF">
   </a>
-  <a href="Projektportfolio_Alexander_Batrakov_DE.pdf">
+  <a href="Portfolio_Alexander_Batrakov_DE.pdf">
     <img src="https://img.shields.io/badge/Portfolio-Deutsch%20PDF-1C7ED6?style=for-the-badge&logo=readthedocs&logoColor=white" alt="German portfolio PDF">
   </a>
 </p>
@@ -53,8 +58,15 @@ I focus on turning messy, ambiguous, or computation-heavy problems into **struct
 ## Portfolio documents
 
 - [Project Portfolio — English](Portfolio_Alexander_Batrakov_EN.pdf)
-
 - [Projektportfolio — Deutsch](Portfolio_Alexander_Batrakov_DE.pdf)
+
+---
+
+## Recommended starting points
+
+- **For Data Analytics / Data Science:** [Wearable Analytics](https://github.com/AlexBatrakov/wearable-analytics) — SQL marts, data quality, feature engineering, time-aware validation.
+- **For Machine Learning / ML Engineering:** [PyTorch Pets Classifier](https://github.com/AlexBatrakov/pytorch-pets-classifier) — MLflow experiments, multi-seed evaluation, diagnostics, FastAPI/Docker deployment.
+- **For Backend / Experiment Platforms:** [Evalynx](https://github.com/AlexBatrakov/evalynx) — FastAPI, PostgreSQL, Redis/RQ, async run orchestration, CI smoke tests.
 
 ---
 
@@ -69,6 +81,7 @@ I focus on turning messy, ambiguous, or computation-heavy problems into **struct
 Privacy-first analytics workflow on real Garmin data: sanitized pipelines, quality labels, SQL marts, feature engineering, leakage-aware modeling, and tests.
 
 **Signals:** Data Analytics · Time Series · SQL · ML Evaluation  
+**Evidence:** 52,812 model configs · 150 tests · DuckDB/PostgreSQL marts · data quality reports  
 **Stack:** Python · pandas · scikit-learn · DuckDB · PostgreSQL · pytest
 
 </td>
@@ -79,6 +92,7 @@ Privacy-first analytics workflow on real Garmin data: sanitized pipelines, quali
 Reproducible computer-vision workflow with MLflow tracking, multi-seed model selection, diagnostics, calibration, FastAPI serving, Docker, and Azure deployment path.
 
 **Signals:** Machine Learning · Model Reliability · Deployment  
+**Evidence:** 21 configs · 3-seed evaluation · 62 tests · FastAPI/Docker/Azure path  
 **Stack:** Python · PyTorch · MLflow · FastAPI · Docker · Azure
 
 </td>
@@ -92,6 +106,7 @@ Reproducible computer-vision workflow with MLflow tracking, multi-seed model sel
 FastAPI/PostgreSQL/Redis control plane for reproducible computational runs: API submission, async workers, retries, metrics, artifacts, and CI smoke tests.
 
 **Signals:** Backend · Run Orchestration · Experiment Platform  
+**Evidence:** 8 API endpoints · PostgreSQL run state · Redis/RQ workers · 29 tests  
 **Stack:** Python · FastAPI · PostgreSQL · Redis/RQ · SQLAlchemy · Docker Compose
 
 </td>
@@ -102,6 +117,7 @@ FastAPI/PostgreSQL/Redis control plane for reproducible computational runs: API 
 Deterministic hidden-information simulator with legal-action masks, replay traces, fixed-seed benchmarks, heuristic/search/learned agents, and evaluation tooling.
 
 **Signals:** Simulation · AI Agents · ML Evaluation  
+**Evidence:** deterministic replay · legal-action masks · fixed-seed benchmarks · 356 tests  
 **Stack:** Python · PyTorch · Gym-style wrappers · TOML · JSON/JSONL · SQLite · pytest
 
 </td>
@@ -115,6 +131,7 @@ Deterministic hidden-information simulator with legal-action masks, replay trace
 Julia framework for external model-fitting workflows with structured metrics, residual diagnostics, white-noise fitting, priors, and adaptive parameter search.
 
 **Signals:** Statistical Diagnostics · Experiment Orchestration · Scientific Computing  
+**Evidence:** structured run artifacts · residual diagnostics · prior-aware search · docs/tests  
 **Stack:** Julia · TEMPO/TEMPO2 · HypothesisTests · KernelDensity · Optim · JLD2 · Docker
 
 </td>
@@ -125,11 +142,22 @@ Julia framework for external model-fitting workflows with structured metrics, re
 Julia scientific-computing package for ODE-based simulation workflows with equation-of-state abstractions, shooting methods, parameter scans, and sensitivity analysis.
 
 **Signals:** Numerical Methods · Sensitivity Analysis · Julia  
+**Evidence:** ODE workflows · shooting methods · ForwardDiff sensitivities · 69 tests  
 **Stack:** Julia · DifferentialEquations.jl · ForwardDiff.jl · NLsolve.jl · Documenter.jl · GitHub Actions
 
 </td>
 </tr>
 </table>
+
+---
+
+## What makes these projects reviewable
+
+- documented setup and reproducible run paths;
+- tests, CI checks, and structured artifacts;
+- baseline comparisons, metrics, diagnostics, and failure cases;
+- clear separation between data processing, modeling, evaluation, and serving;
+- public repositories with code, documentation, and project-specific README files.
 
 ---
 
@@ -145,9 +173,9 @@ Across projects, I emphasize:
 
 ---
 
-## Current direction
+## Open to roles
 
-I am looking for roles where I can combine my quantitative research background with practical software and data work, especially in:
+Open to roles in **Data Science**, **Data Analytics**, **Machine Learning Engineering**, and **Software Engineering** where reproducibility, evaluation, and analytical systems matter.
 
 <p>
   <img src="https://img.shields.io/badge/Data%20Science-0B7285?style=flat-square" alt="Data Science">
