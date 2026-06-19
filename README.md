@@ -1,11 +1,6 @@
 <h1 align="center">Hi, I'm Alexander Batrakov 👋</h1>
 
 <p align="center">
-  <b>Data Science · Data Analytics · Machine Learning · Software Engineering</b><br>
-  PhD-trained physicist building reproducible analytical workflows, ML evaluation pipelines, backend-supported experiment platforms, and scientific software.
-</p>
-
-<p align="center">
   <a href="https://github.com/AlexBatrakov">
     <img src="https://img.shields.io/badge/GitHub-AlexBatrakov-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
@@ -13,6 +8,15 @@
     <img src="https://img.shields.io/badge/LinkedIn-alexbatrakov97-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
   <img src="https://img.shields.io/badge/Location-Wuppertal%2C%20Germany-2E8B57?style=for-the-badge" alt="Location">
+</p>
+
+<p align="center">
+  <a href="Portfolio_Alexander_Batrakov_EN.pdf">
+    <img src="https://img.shields.io/badge/Portfolio-English%20PDF-2E8B57?style=for-the-badge&logo=readthedocs&logoColor=white" alt="English portfolio PDF">
+  </a>
+  <a href="Projektportfolio_Alexander_Batrakov_DE.pdf">
+    <img src="https://img.shields.io/badge/Portfolio-Deutsch%20PDF-1C7ED6?style=for-the-badge&logo=readthedocs&logoColor=white" alt="German portfolio PDF">
+  </a>
 </p>
 
 ---
@@ -43,6 +47,14 @@ I focus on turning messy, ambiguous, or computation-heavy problems into **struct
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
+
+---
+
+## Portfolio documents
+
+- [Project Portfolio — English](Portfolio_Alexander_Batrakov_EN.pdf)
+
+- [Projektportfolio — Deutsch](Portfolio_Alexander_Batrakov_DE.pdf)
 
 ---
 
