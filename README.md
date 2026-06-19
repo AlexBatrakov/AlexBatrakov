@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Data Science · Data Analytics · Machine Learning · Software Engineering</b><br>
-  PhD-trained physicist transitioning into practical data, ML, and software roles — with a focus on reproducible analytics, model evaluation, backend-supported experiment workflows, and scientific software.
+  Physics PhD researcher building reproducible data, ML, and software systems — with a focus on analytics workflows, model evaluation, backend-supported experiment platforms, and scientific software.
 </p>
 
 <p align="center">
